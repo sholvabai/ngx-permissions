@@ -11,7 +11,7 @@
     "test:single": "ng test ngx-permissions --preserve-symlinks  --no-watch --code-coverage",
     "lint": "ng lint",
     "codecov": "cat coverage/ngx-permissions/lcov.info | codecov",
-    "pub": "npm run build-lib && cd dist/ngx-permissions && npm publish"
+    "pub": "npm run build-lib && cd dist/ngx-permissions && npm publish --access public"
   },
   "dependencies": {
     "@angular/animations": "^17.0.5",
